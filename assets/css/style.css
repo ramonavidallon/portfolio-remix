@@ -1,0 +1,287 @@
+/* CSS */
+
+/* allows for anchors to scroll instead of jump to section */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.myName {
+  font-family: 'Cinzel', serif;
+  color: white;
+  font-size: 100px;
+  padding-top: 90px;
+  text-align: center;
+
+}
+
+/* changes whole name and title object */
+.myName span {
+  background-color: rgba(239, 182, 182, 0.356); 
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.myTitle {
+  font-family: 'Cinzel', serif;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: -30px;
+}
+
+.navbar {
+  margin-top:10%;
+  font-size: 25px;
+  color: white;
+  font-family: 'Cinzel', serif;
+  justify-content: center;
+}
+
+.navbar div {
+  justify-content: center;
+}
+
+.navbar-nav {
+  color: white;
+}
+
+.landingNavBar {
+  background-color: rgba(239, 182, 182, 0.356); 
+  border-radius: 25px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top:350px;
+}
+
+
+.text-box {
+  font-family: 'Cinzel', serif;
+  font-size: 70px;
+  padding-top: 25px;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+#clairePic {
+  width: 200px;
+  border-radius: 30%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.aboutMe {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.parallax {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+/* section 1 */
+
+/* computer and phone pic */
+.parallax1 {
+  /* The image used */
+  background-image: url("guccigarden.jpg");
+  /* Set a specific height */
+  min-height: 900px;
+ }
+
+/* section 2 */
+/* woman on computer photo */
+.parallax2 {
+  /* The image used */
+  background-image: url("hbofficespace.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+}
+
+.programmingTitle {
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+
+.text-box-programming {
+  font-family: 'Cinzel', serif;
+  font-size: 70px;
+  padding-top: 30%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.programmingExamples {
+  /* Hangman Game */
+  /* background-image: url("../assets/programming/Hangman.PNG"); */
+  padding: 0%;
+  background-position: top;
+  background-repeat: no-repeat; 
+
+
+   /* Smoothie Shop */
+   /* background-image: url("../assets/programming/smoothieshop.PNG");
+   padding: 0%;
+   background-position: top;
+   background-repeat: no-repeat; */
+}
+
+.programmingExamples ul, li, img, div {
+  padding: 0%;
+  list-style: none;
+  margin: 0%;
+}
+
+.projectList div {
+  position: relative;
+}
+
+.centerImage {
+  display: block;
+  block-size: 500px;
+  width: 100%;
+}
+
+.link-image {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 460px;
+  right: 50px;
+}
+
+.github-image {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 460px;
+  right: 15px;
+}
+
+
+/* section 3 */
+/* whiteboard photo */
+.parallax3 {
+  /* The image used */
+  background-image: url("hbofficespace.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+}
+
+.pm {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 20px;
+}
+/* section 4 */
+/* nature photo */
+.parallax4 {
+  /* The image used */
+  background-image: url("TO7A8796.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+}
+
+.contactTitle {
+  text-align: center;
+}
+
+.contact {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 25px;
+  padding: 20px;
+  padding-bottom: 35px;
+  width: 100%;
+
+}
+
+.linkedin-image, .github-image2, .resume-image {
+  width: 33px;
+  height: 33px;
+  position: relative;
+}
+
+/*media query*/
+
+@media only screen and (max-width: 1040px) {
+ .landingNavBar {
+   margin-left: 10%;
+   margin-right: 10%;
+ }
+}
+
+@media only screen and (max-width: 980px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+  .navbar {
+    display: none;
+  }
+
+  .landingNavBar {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 30%;
+    display: flex;
+  }
+
+  .myName {
+    font-size: 50px;
+  }
+
+  .myTitle {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  .centerImage {
+    block-size: 0%;
+  }
+
+  .link-image, .github-image {
+    top: 80%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .slash {
+    display: none;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .text-box-programming {
+    padding-top: 5%;
+  }
+
+  .parallax {
+    background-attachment:scroll;
+  }
+}

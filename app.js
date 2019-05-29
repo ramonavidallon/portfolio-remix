@@ -12,12 +12,11 @@ $(document).ready(function() {
         windowHeightFloater = windowHeightFloater / 2;
     }
 
-    $('html,body').scrollTop(1); // auto scroll to top
+    $('html,body').scrollTop(1);
 
     var touchSupported = (('ontouchstart' in window) ||
                             window.DocumentTouch && document instanceof DocumentTouch);
 
-    // if touch events are supported, tie our animation to the position to these events as well
     if (touchSupported) {
 
         $(window)
@@ -33,7 +32,6 @@ $(document).ready(function() {
             updateFloaters(val);
         });
 
-    // update vars used in parallax calculations on window resize
     $(window).resize(function() {
         windowHeightFloater = $(this).height();
         windowHeight = windowHeightFloater;
@@ -73,7 +71,6 @@ $(document).ready(function() {
 
         floaterElm.height(windowHeightFloater);
 
-        // use data-id as key
         scrollElements[id] = {
             id: $elm.data('id'),
             floater: floaterElm,

@@ -99,14 +99,12 @@ html {
   min-height: 900px;
  }
 
-/* section 2 */
-/* woman on computer photo */
-.parallax2 {
+/* .parallax2 { */
   /* The image used */
-  background-image: url("hbofficespace.jpg");
+  /* background-image: url("hbofficespace.jpg"); */
   /* Set a specific height */
-  min-height: 500px;
-}
+  /* min-height: 500px; */
+/* } */
 
 .programmingTitle {
   font-family: 'Cinzel', serif;
@@ -128,19 +126,11 @@ html {
 }
 
 .programmingExamples {
-  /* Hangman Game */
-  /* background-image: url("../assets/programming/Hangman.PNG"); */
   padding: 0%;
   background-position: top;
   background-repeat: no-repeat; 
-
-
-   /* Smoothie Shop */
-   /* background-image: url("../assets/programming/smoothieshop.PNG");
-   padding: 0%;
-   background-position: top;
-   background-repeat: no-repeat; */
 }
+
 
 .programmingExamples ul, li, img, div {
   padding: 0%;
@@ -175,12 +165,8 @@ html {
 }
 
 
-/* section 3 */
-/* whiteboard photo */
 .parallax3 {
-  /* The image used */
   background-image: url("hbofficespace.jpg");
-  /* Set a specific height */
   min-height: 500px;
 }
 
@@ -191,12 +177,8 @@ html {
   margin-right: 200px;
   padding: 20px;
 }
-/* section 4 */
-/* nature photo */
 .parallax4 {
-  /* The image used */
   background-image: url("TO7A8796.jpg");
-  /* Set a specific height */
   min-height: 500px;
 }
 
@@ -219,7 +201,7 @@ html {
   position: relative;
 }
 
-/*media query*/
+/*MEDIA QUERY FOR PAGE*/
 
 @media only screen and (max-width: 1040px) {
  .landingNavBar {

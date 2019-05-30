@@ -108,14 +108,14 @@ html {
   width: 100%;
 }
 
-.programmingExamples {
+.projectExamples {
   padding: 0%;
   background-position: top;
   background-repeat: no-repeat; 
 }
 
 
-.programmingExamples ul, li, img, div {
+.projectExamples ul, li, img, div {
   padding: 0%;
   list-style: none;
   margin: 0%;
@@ -129,6 +129,7 @@ html {
   display: block;
   block-size: 500px;
   width: 100%;
+  right: 50%;
 }
 
 .link-image {

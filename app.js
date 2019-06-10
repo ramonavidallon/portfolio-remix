@@ -19,15 +19,13 @@ $(document).ready(function() {
 
     if (touchSupported) {
 
-        $(window)
-            .bind('touchmove', function(e) {
+        $(window).bind('touchmove', function(e) {
                 var val = e.currentTarget.scrollY;
                 updateFloaters(val);
             });
     }
 
-    $(window)
-        .bind('scroll', function(e) {
+    $(window).bind('scroll', function(e) {
             var val = $(this).scrollTop();
             updateFloaters(val);
         });

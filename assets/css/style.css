@@ -66,6 +66,10 @@ html {
   margin-bottom: 50px;
 }
 
+#about {
+  min-height: 1000px;
+}
+
 .aboutMe {
   font-family: 'Cormorant Garamond', serif;
   font-size: 25px;
@@ -86,7 +90,7 @@ html {
 
 .parallax1 {
   background-image: url("guccigarden.jpg");
-  min-height: 900px;
+  min-height: 1000px;
  }
 
 .programmingTitle {
@@ -123,6 +127,7 @@ html {
 
 .projectList div {
   position: relative;
+  max-width: 1200px;
 }
 
 .centerImage {
@@ -176,6 +181,8 @@ html {
   padding: 20px;
   padding-bottom: 35px;
   width: 100%;
+  min-height: 500px;
+
 
 }
 

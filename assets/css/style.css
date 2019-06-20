@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+strong {
+  font-weight: bold;
+}
+
 .myName {
   font-family: 'Cinzel', serif;
   color: white;

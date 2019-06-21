@@ -164,10 +164,8 @@ strong {
 }
 
 /* DJ SECTION */
-.djHeader {
+#djHeader {
   text-align: center;
-  padding-left: 325px;
-  padding-right: 322px;
   font-family: 'Cinzel', serif;
 
 }

@@ -163,6 +163,15 @@ strong {
   min-height: 500px;
 }
 
+/* DJ SECTION */
+.djHeader {
+  text-align: center;
+  padding-left: 325px;
+  padding-right: 322px;
+  font-family: 'Cinzel', serif;
+
+}
+
 
 .parallax4 {
   background-image: url("TO7A8796.jpg");
@@ -198,10 +207,18 @@ strong {
 }
 
 @media only screen and (max-width: 980px) {
+  #soundcloudTracks {
+    width: auto;
+    height: 300px;
+  }
 
 }
 
 @media only screen and (max-width: 768px) {
+  #soundcloudTracks {
+    width: auto;
+    height: 300px;
+  }
 
 
 }
@@ -235,6 +252,11 @@ strong {
   .link-image, .github-image {
     top: 80%;
   }
+
+  #soundcloudTracks {
+    width: auto;
+    height: 300px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -253,4 +275,10 @@ strong {
   .parallax {
     background-attachment:scroll;
   }
+
+  #soundcloudTracks {
+    width: auto;
+    height: 300px;
+  }
+
 }

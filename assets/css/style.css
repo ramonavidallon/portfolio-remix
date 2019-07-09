@@ -205,18 +205,18 @@ strong {
 }
 
 @media only screen and (max-width: 980px) {
-  #soundcloudTracks {
-    width: auto;
+  /* #soundcloudTracks {
+    width: 380px;
     height: 300px;
-  }
+  } */
 
 }
 
 @media only screen and (max-width: 768px) {
-  #soundcloudTracks {
-    width: auto;
+  /* #soundcloudTracks {
+    width: 580px;
     height: 300px;
-  }
+  } */
 
 
 }
@@ -278,5 +278,14 @@ strong {
     width: auto;
     height: 300px;
   }
+
+}
+
+@media only screen and (max-width: 575px) {
+  #soundcloudTracks {
+    width: auto;
+    height: 300px;
+  }
+
 
 }

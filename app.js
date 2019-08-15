@@ -2,7 +2,6 @@ var scrollElements = [];
 var windowHeightFloater = 0;
 var windowHeight = 0;
 
-
 $(document).ready(function() {
 
     windowHeightFloater = $(window).height();
@@ -108,3 +107,5 @@ function updateFloaters(scrollTop) {
         );
     }
 }
+
+

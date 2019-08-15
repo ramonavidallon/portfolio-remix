@@ -116,6 +116,19 @@ strong {
   width: 100%;
 }
 
+.modalBtn {
+  width: 85px;
+  height: 35px;
+  font-family: 'Cinzel', serif;
+  top: 420px;
+  right: 5px;
+  position: absolute;
+}
+
+.projectModal {
+  text-align: left;
+}
+
 .projectExamples {
   padding: 0%;
   background-position: top;

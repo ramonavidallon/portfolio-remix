@@ -7,7 +7,7 @@ $(document).ready(function() {
     windowHeightFloater = $(window).height();
     windowHeight = windowHeightFloater;
     var windowWidth = $(window).width();
-    if (windowWidth < 992) {
+    if (windowWidth < 400) {
         windowHeightFloater = windowHeightFloater / 2;
     }
 

@@ -71,7 +71,7 @@ strong {
 }
 
 #about {
-  min-height: 1000px;
+  min-height: 900px;
 }
 
 .aboutMe {
@@ -105,9 +105,7 @@ strong {
 .text-box-programming {
   font-family: 'Cinzel', serif;
   font-size: 70px;
-  padding-top: 30%;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-top: 5%;
 }
 
 .row {
@@ -121,7 +119,7 @@ strong {
   height: 35px;
   font-family: 'Cinzel', serif;
   top: 420px;
-  right: 5px;
+  right: 20px;
   position: absolute;
 }
 
@@ -159,7 +157,7 @@ strong {
   height: 23px;
   position: absolute;
   top: 460px;
-  right: 50px;
+  right: 60px;
 }
 
 .github-image {
@@ -167,13 +165,13 @@ strong {
   height: 25px;
   position: absolute;
   top: 460px;
-  right: 15px;
+  right: 25px;
 }
 
 
 .parallax3 {
   background-image: url("hbofficespace.jpg");
-  min-height: 500px;
+  min-height: 400px;
 }
 
 /* DJ SECTION */
@@ -187,7 +185,7 @@ strong {
 
 
 .parallax4 {
-  background-image: url("TO7A9001.jpg");
+  background-image: url("portfolio-background-image.jpg");
   min-height: 500px;
 }
 
